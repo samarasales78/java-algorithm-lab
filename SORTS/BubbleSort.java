@@ -2,21 +2,25 @@ package SORTS;
 
 public class BubbleSort {
 
-  public static void bubbleSort(int[] vetor) {
+    public static void bubbleSort(int[] vetor) {
 
-    int n = vetor.length;
+        int n = vetor.length; // tamanho do vetor
 
-    for (int i = 0; i < n - 1; i++) {
+        // percorre o vetor várias vezes
+        for (int i = 0; i < n - 1; i++) {
 
-      for (int j = 0; j < n - 1 - i; j++) {
+            // a cada passagem, o maior elemento vai para o final
+            for (int j = 0; j < n - 1 - i; j++) {
 
-        if (vetor[j] > vetor[j + 1]) {
+                // compara elementos vizinhos
+                if (vetor[j] > vetor[j + 1]) {
 
-          int temp = vetor[j];
-          vetor[j] = vetor[j + 1];
-          vetor[j + 1] = temp;
+                    // troca os elementos
+                    int temp = vetor[j];
+                    vetor[j] = vetor[j + 1];
+                    vetor[j + 1] = temp;
+                }
+            }
         }
-      }
     }
-  }
 }

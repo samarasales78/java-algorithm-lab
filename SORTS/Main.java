@@ -8,7 +8,8 @@ public class Main {
   public static void main(String[] args) {
 
     testar(20);
-    testar(2000);
+    System.out.println("\n--------");
+    testar(2000); // D) ARRAYS DE TAMANHO 2000
   }
 
   public static void testar(int tamanho) {
