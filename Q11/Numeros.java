@@ -1,24 +1,20 @@
-package Q19;
+package Q11;
 
 public class Numeros {
-
+  
   private int[] valores;
 
   public Numeros(int[] valores) {
     this.valores = valores;
   }
 
-  public int contarPares() {
-
-    int quantidade = 0;
+  public int calcularSoma() {
+    int soma = 0;
 
     for (int i = 0; i < valores.length; i++) {
-
-      if (valores[i] % 2 == 0) {
-        quantidade++;
-      }
+      soma += valores[i];
     }
 
-    return quantidade;
+    return soma;
   }
 }
