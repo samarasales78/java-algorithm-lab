@@ -20,6 +20,6 @@ public class Aluno {
   }
 
   public void exibirDados() {
-    System.out.printf("Nome: %s%nNota 1 : %.1f%nNota 2: %.1f%nNota 3: %.1f%n", nome, nota1, nota2, nota3);
+    System.out.printf("Nome: %s%nNota 1: %.1f%nNota 2: %.1f%nNota 3: %.1f%n", nome, nota1, nota2, nota3);
   }
 }
