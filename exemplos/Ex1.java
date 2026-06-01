@@ -1,3 +1,4 @@
+package exemplos;
 import java.util.Scanner;
 import java.util.Locale;
 

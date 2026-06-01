@@ -1,3 +1,4 @@
+package exemplos;
 import java.util.Arrays;
 
 public class Ordenacao {
