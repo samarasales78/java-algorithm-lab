@@ -9,7 +9,6 @@ public class Vetor {
   }
 
   public int menorValor() {
-
     int menor = numeros[0];
 
     for (int i = 1; i < numeros.length; i++) {
